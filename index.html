@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog sobre el autoestudio en universidades a distancia">
+    <title>Autoestudio en Universidades a Distancia</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #444;
+        }
+        header {
+            background-color: #212121;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8em;
+            margin: 0;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+        nav {
+            background-color: #00796b;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #b2dfdb;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #00796b;
+            border-bottom: 2px solid #b2dfdb;
+            padding-bottom: 5px;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #00796b;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+        th, td {
+            text-align: left;
+        }
+        iframe {
+            width: 100%;
+            border: none;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        form button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #004d40;
+        }
+        footer {
+            background-color: #212121;
+            color: #bdbdbd;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Autoestudio en Universidades a Distancia</h1>
+        <p>Explorando retos y estrategias para el éxito académico</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="retos.html">Retos</a></li>
+            <li><a href="estrategias.html">Estrategias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Sobre el Blog</h2>
+            <p>
+                Bienvenidos al blog de Jerson Medina. Este espacio está dedicado a estudiantes 
+                de universidades a distancia, ofreciendo herramientas, estrategias y reflexiones para que 
+                el autoestudio sea una experiencia enriquecedora y efectiva.
+            </p>
+        </section>
+        <section>
+            <h2>Retos del Autoestudio</h2>
+            <ul>
+                <li>Organización del tiempo y planificación de actividades.</li>
+                <li>Mantener la motivación y disciplina en el día a día.</li>
+                <li>Adaptarse al aprendizaje independiente sin apoyo presencial inmediato.</li>
+                <li>Conciliar estudio con otras responsabilidades personales y laborales.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Estrategias para Superar los Retos</h2>
+            <table>
+                <tr>
+                    <th>Estrategia</th>
+                    <th>Descripción</th>
+                    <th>Beneficio</th>
+                </tr>
+                <tr>
+                    <td>Uso de Herramientas Digitales</td>
+                    <td>Aplicaciones para gestión del tiempo y recursos educativos en línea.</td>
+                    <td>Facilita el seguimiento de tareas y optimiza el aprendizaje.</td>
+                </tr>
+                <tr>
+                    <td>Redes de Apoyo</td>
+                    <td>Conectar con otros estudiantes mediante foros y grupos.</td>
+                    <td>Proporciona motivación y resolución de dudas.</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Video Destacado</h2>
+            <iframe 
+                src="https://www.youtube.com/embed/y1S4IZNcyxc" 
+                title="Consejos para el Autoestudio"
+                allowfullscreen>
+            </iframe>
+        </section>
+                <section>
+            <h2>Contacto</h2>
+            <form action="mailto:jersonmedina@ejemplo.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Galería</h2>
+            <img src="imagenes/imagen2.jpg" alt="Imagen">
+            <img src="imagenes/imagen3.jpg" alt="Imagen">
+            <img src="imagenes/imagen4.jpg" alt="Imagen">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jerson Medina. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
